@@ -80,13 +80,13 @@ pig
      └── pig-cache-cloud -- 缓存管理、统一监控[5005]
 ```
 
-###环境准备
+### 环境准备
 1.redis  
 2.rabbitMQ
 3.Mysql 5.7
 4.node
 
-###pig项目启动顺序：
+### pig项目启动顺序：
 
 请确保启动顺序（要先启动认证中心，再启动网关）  
 1.eureka  
@@ -95,7 +95,7 @@ pig
 4.gateway  
 5.upms 
 
-###pig-ui项目配置：
+### pig-ui项目配置：
 安装淘宝镜像  
 npm install -g cnpm --registry=https://registry.npm.taobao.org  
 进入项目：/pig-ui/  
